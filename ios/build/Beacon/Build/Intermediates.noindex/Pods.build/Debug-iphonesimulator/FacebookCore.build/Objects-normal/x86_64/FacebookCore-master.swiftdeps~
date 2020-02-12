@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "2cf2f808340d294f727289b283481229"
+build_time: [1577192676, 571624000]
+inputs:
+  "/Users/myzealit/Desktop/kausar/Beacon/ios/Pods/FacebookCore/Sources/Core/AccessToken.swift": [1576667818, 38670476]
+  "/Users/myzealit/Desktop/kausar/Beacon/ios/Pods/FacebookCore/Sources/Core/Dictionary+KeyValueMap.swift": [1576667818, 37387841]
+  "/Users/myzealit/Desktop/kausar/Beacon/ios/Pods/FacebookCore/Sources/Core/FBProfilePictureView.swift": [1576667818, 39289093]
+  "/Users/myzealit/Desktop/kausar/Beacon/ios/Pods/FacebookCore/Sources/Core/FBSDKCoreKit+Typealiases.swift": [1576667818, 36649147]
+  "/Users/myzealit/Desktop/kausar/Beacon/ios/Pods/FacebookCore/Sources/Core/Permission.swift": [1576667818, 35591288]
+  "/Users/myzealit/Desktop/kausar/Beacon/ios/Pods/FacebookCore/Sources/Core/Settings.swift": [1576667818, 39822732]

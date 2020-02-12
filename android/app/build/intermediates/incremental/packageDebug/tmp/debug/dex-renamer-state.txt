@@ -1,0 +1,4 @@
+#Mon Dec 09 04:27:37 PST 2019
+base.0=/Users/myzealit/Desktop/beaconios/Beacon/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

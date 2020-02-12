@@ -1,0 +1,6 @@
+framework module react_native_apple_authentication {
+  umbrella header "react-native-apple-authentication-umbrella.h"
+
+  export *
+  module * { export * }
+}

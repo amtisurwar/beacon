@@ -1,0 +1,32 @@
+Done 1. The first thing that the app will ask is to enable your GPS location which is mandatory.
+Done 2. When a user signs in for the first time then they should probably see a step-by-step to help guide them through their first use of the app & what it all means such as the other apps have. It will appear once only.
+Done 3. User will be able to select gender preference for searching.
+4. User will be able to view 2 tabs, Map view and List view. 
+    List view should have filters of Bars or Restaurants and when user selects a bar 
+    then the image/photo of the bar will appear in the screen and it should have the 
+    pins with user’s profile image and distance between one user to the other should 
+    be mentioned in Feet.
+5. Map view will have his current location and based on the search user will be able to see the results of user in the map in the form of pins.
+Done 6. Pin will have the profile photo of the users.
+Done 7. On clicking the pins, user will be able to view the Profile Pic, Name, Status and Drinks/Appetizer that the user has entered while sign up.
+8. User can send Neon Blue color which means Interest, Light Gray which means in Queue and Black mean Rejected/Flick.
+9. The user will only get notification for Neon Blue only. If the user is marked Light Gray or Black by another user, he will not be able to receive any notifications.
+10. On tapping Neon Blue color for a user, then that user will move to the Rolodex/History section.
+11. When a user clicks on Light gray then it will be displayed in the Map itself. If Black color is clicked then his result will be removed from the map.
+12. List view will have list of users who are very close to them that is in walking distance. If he is in the bar then it should have the list of users in the bar same with Restaurants, Malls, Hospital etc.
+
+
+
+Hi,
+
+Please test the build Ver 1.0.5
+
+Settings page - Also discuss with your RM for changes as per the design. Added the functionality for meter and ft.
+Change Password - After password change should be redirect to login page with existing change password functionality.
+Map List pages design both for Map and List View
+Other designs as per the shared design.
+
+
+
+Regards,
+Mohd Kausar

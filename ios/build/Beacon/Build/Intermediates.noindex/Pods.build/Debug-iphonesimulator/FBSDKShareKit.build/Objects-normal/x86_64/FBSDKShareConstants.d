@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.m \
+  /Users/myzealit/Desktop/Beacon/ios/build/Beacon/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBSDKShareKit.build/module.modulemap \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/Target\ Support\ Files/FBSDKShareKit/FBSDKShareKit-prefix.pch \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h

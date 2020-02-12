@@ -1,0 +1,22 @@
+import React, {Component} from 'react';
+import {Platform, StyleSheet, View, Text, ScrollView, Image, TouchableOpacity, AsyncStorage} from 'react-native';
+import store from './src/Store';
+import {Provider} from 'react-redux';
+import Splash from './src/Container/Splash';
+import Auth from './src/Components/Auth';
+import Notification from './src/Components/Notification';
+
+export default class App extends Component {
+  render() {
+    return(
+      <Provider store={store}>
+        <Splash />
+        {/* <Notification /> */}
+        <Auth />
+      </Provider>
+     
+    )
+  }
+}
+
+console.disableYellowBox = true;

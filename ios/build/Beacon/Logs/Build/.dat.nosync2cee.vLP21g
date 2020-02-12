@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0D7E25C1-2A96-4BA1-BB66-94F0A5A32517</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0D7E25C1-2A96-4BA1-BB66-94F0A5A32517.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Beacon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Beacon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Beacon with scheme Beacon and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>597247954.37668502</real>
+			<key>timeStoppedRecording</key>
+			<real>597247955.79447305</real>
+			<key>title</key>
+			<string>Building workspace Beacon with scheme Beacon and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>0D7E25C1-2A96-4BA1-BB66-94F0A5A32517</string>
+		</dict>
+		<key>374D7F21-62E3-45FF-BD98-345873DE8B75</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>374D7F21-62E3-45FF-BD98-345873DE8B75.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Beacon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Beacon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Beacon with scheme Beacon and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>597248468.45509601</real>
+			<key>timeStoppedRecording</key>
+			<real>597248469.40390801</real>
+			<key>title</key>
+			<string>Building workspace Beacon with scheme Beacon and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>374D7F21-62E3-45FF-BD98-345873DE8B75</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

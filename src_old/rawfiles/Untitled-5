@@ -1,0 +1,358 @@
+
+	
+Mohammad Kausar
+Search all email folders
+(6)
+Add Folder
+login
+From:	
+Amit Kumar <amitk@myzealit.us>
+Sent:	
+Mon, Dec 23, 2019 at 8:11 am
+To:	
+Mohammad Kausar
+
+import React, { Component } from "react";
+
+import { Image, ImageBackground, ScrollView, ListView, AsyncStorage, TouchableHighlight, TouchableOpacity } from "react-native";
+
+import styles from '../../assets/style/style.js';
+
+import {
+
+Container, Title, Content, Button, Text, Left, Body, Right, Card, CardItem, Header, Picker,
+
+List, Item, Input, ListItem, Spinner, View, Label, H3, Form, CheckBox, Row, Col, Grid, Badge, CardList, Footer
+
+} from "native-base";
+
+import Common from './Common/index';
+
+import API from '../Api/Api';
+
+import Loader from '../Components/Loader';
+
+
+export default class Login extends Component {
+
+constructor(props) {
+
+super(props)
+
+this.state = {
+
+username: '',
+
+password: '',
+
+errors: [],
+
+remember: false,
+
+loading: false,
+
+ }
+
+this.common = new Common();
+
+ }
+
+
+componentDidMount() {
+
+this.setRemember();
+
+ }
+
+
+async setRemember() {
+
+var credentials = this.props.navigation.getParam('credentials');
+
+if (credentials.rememberUsername && credentials.rememberPassword) {
+
+this.setState({
+
+username: credentials.rememberUsername,
+
+password: credentials.rememberPassword
+
+ })
+
+ }
+
+ }
+
+async success(profile) {
+
+await AsyncStorage.setItem("UserId", profile.UserId.toString());
+
+await AsyncStorage.setItem("profile", JSON.stringify(profile));
+
+
+if (this.state.remember) {
+
+await AsyncStorage.setItem("rememberUsername", this.state.username);
+
+await AsyncStorage.setItem("rememberPassword", this.state.password);
+
+ }
+
+this.props.navigation.navigate('BottomNavigator')
+
+this.setState({ loading: false });
+
+ }
+
+
+Login = async () => {
+
+//this.props.navigation.navigate('BottomNavigator')
+
+if (!this.state.username) {
+
+this.common.showToast('Please Enter your Username')
+
+ }
+
+else if (this.state.username && !this.common.validateEmail(this.state.username)) {
+
+this.common.showToast('Please enter your valid Username');
+
+ }
+
+else if (!this.state.password) {
+
+this.common.showToast('Please Enter your Password')
+
+ }
+
+else {
+
+await this.getRequestData().then(data => {
+
+console.log("login request: ", data);
+
+var response = new API('Login', data).getResponse();
+
+console.log("login result: ", response);
+
+response.then(result => {
+
+if (result.StatusCode == 200 && result.Data.UserId) {
+
+this.success(result.Data);
+
+ }
+
+else {
+
+var errors = [];
+
+this.setState({ errors: errors })
+
+this.setState({ loading: false });
+
+ }
+
+ })
+
+ });
+
+ }
+
+ }
+
+
+async getRequestData() {
+
+
+return {
+
+"username": this.state.username,
+
+"password": this.state.password,
+
+"roleid":"",
+
+"Deviceid":"",
+
+"RegId":""
+
+ }
+
+ }
+
+
+render() {
+
+if (this.state.loading) {
+
+return <Loader />
+
+ }
+
+return (
+
+<Container style={styles.container}>
+
+<Content>
+
+<Row style={styles.logoBack}>
+
+<Image style={styles.iconImage} source={require('../../assets/images/1024.png')}>
+
+</Image>
+
+</Row>
+
+<View>
+
+<View style={styles.inputView}>
+
+<Item style={{ borderBottomColor: '#333' }}>
+
+<Input style={styles.inputfield}
+
+placeholder='Email'
+
+value={this.state.username}
+
+onChangeText={(text) => this.setState({ 'username': text })}
+
+autoCapitalize='none'
+
+maxLength={100}
+
+borderColor='#333'
+
+selectionColor={'#333'}
+
+placeholderTextColor='#333'
+
+/>
+
+</Item>
+
+<Item style={{ borderBottomColor: '#333', marginTop: 10 }}>
+
+<Input style={styles.inputfield}
+
+value={this.state.password}
+
+onChangeText={(text) => this.setState({ 'password': text })}
+
+selectionColor={'#333'}
+
+placeholder='Password'
+
+maxLength={14}
+
+secureTextEntry
+
+autoCapitalize='none'
+
+placeholderTextColor='#333'
+
+/>
+
+</Item>
+
+<View>
+
+<View style={[styles.rememberAndForgotWrapper]}>
+
+<View style={styles.row}>
+
+<CheckBox checked={this.state.remember} onPress={() => this.setState({ remember: !this.state.remember })} checkedColor="#28558E" size={16} containerStyle={styles.loginContainerStyle} color="#808080" style={styles.loginCheckbox} />
+
+<Text style={[styles.greyColor, styles.font15]}>Remember Me</Text>
+
+</View>
+
+<View>
+
+<TouchableOpacity onPress={() => this.props.navigation.navigate('ForgotPassword')} >
+
+<Text style={[styles.greyColor, styles.font14]}>Forgot Password?</Text>
+
+</TouchableOpacity>
+
+</View>
+
+</View>
+
+</View>
+
+<View style={{ marginTop: 30 }}>
+
+<Button block style={{ backgroundColor: 'black', borderRadius: 50, width: '50%', alignContent: 'center', alignItems: 'center', justifyContent: 'center', alignSelf: 'center' }}
+
+onPress={() => this.Login()}>
+
+<Text style={{ fontSize: 14 }}>Login</Text>
+
+</Button>
+
+<Row style={styles.orLabel}>
+
+<Label style={{ color: '#333' }}>Or Sign In With:</Label>
+
+</Row>
+
+</View>
+
+</View>
+
+</View>
+
+</Content>
+
+<View style={[styles.bottomView, {backgroundColor:'#1b244d'}]}>
+
+<Row style={styles.socialRow}>
+
+<Left>
+
+<Button block style={styles.fb}>
+
+<Image style={styles.icon} source={require("../../assets/images/facebook.jpeg")} />
+
+{/* <Icon name='logo-facebook' size={18} /> */}
+
+</Button>
+
+</Left>
+
+<Right>
+
+<Button block style={styles.google}>
+
+<Image style={styles.icons} source={require("../../assets/images/Google-Plus-Icon.png")} />
+
+{/* <Icon name='logo-facebook' size={18} /> */}
+
+</Button>
+
+</Right>
+
+</Row>
+
+<Row>
+
+<Text style={styles.newUser}>New User than!</Text>
+
+<TouchableOpacity style={styles.signUptext}><Text style={{ color: '#fff', alignSelf: 'center', alignContent: 'center', justifyContent: 'center' }} onPress={() => this.props.navigation.navigate('Register')} >Sign Up</Text></TouchableOpacity>
+
+</Row>
+
+</View>
+
+</Container >
+
+ );
+
+ }
+
+}
+

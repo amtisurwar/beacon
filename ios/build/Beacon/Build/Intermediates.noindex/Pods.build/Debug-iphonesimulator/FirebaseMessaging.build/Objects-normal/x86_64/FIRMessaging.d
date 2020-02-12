@@ -1,0 +1,48 @@
+dependencies: \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessaging.m \
+  /Users/myzealit/Desktop/Beacon/ios/build/Beacon/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseMessaging.build/module.modulemap \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/Public/FIRMessaging.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessaging_Private.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingAnalytics.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/Headers/Public/FirebaseAnalyticsInterop/FIRAnalyticsInterop.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingClient.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingConstants.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingContextManagerService.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDataMessageManager.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDefines.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/Public/FIRMessagingExtensionHelper.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingLogger.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMMessageCode.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingPubSub.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingReceiver.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRemoteNotificationsProxy.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRmqManager.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingSyncMessageManager.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingUtilities.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingVersionUtilities.h \
+  /Users/myzealit/Desktop/Beacon/ios/build/Beacon/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRLibrary.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRDependency.h \
+  /Users/myzealit/Desktop/Beacon/ios/build/Beacon/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseInstanceID.build/module.modulemap \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FirebaseInstanceID.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/Target\ Support\ Files/FirebaseInstanceID/FirebaseInstanceID-umbrella.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceID_Private.h \
+  /Users/myzealit/Desktop/Beacon/ios/build/Beacon/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Private/GULUserDefaults.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULApplication.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FirebaseMessaging/Firebase/Messaging/NSError+FIRMessaging.h

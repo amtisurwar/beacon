@@ -1,0 +1,6 @@
+framework module react_native_gps_state {
+  umbrella header "react-native-gps-state-umbrella.h"
+
+  export *
+  module * { export * }
+}

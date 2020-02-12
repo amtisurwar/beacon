@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/Internal/FBSDKLikeActionControllerCache.m \
+  /Users/myzealit/Desktop/Beacon/ios/build/Beacon/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FBSDKShareKit.build/module.modulemap \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/Target\ Support\ Files/FBSDKShareKit/FBSDKShareKit-prefix.pch \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/Internal/FBSDKLikeActionControllerCache.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/Internal/FBSDKLikeActionController.h \
+  /Users/myzealit/Desktop/Beacon/ios/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h

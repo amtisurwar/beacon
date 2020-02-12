@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>F704AA67-8CFE-4F13-AF4C-AD700418FD3C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F704AA67-8CFE-4F13-AF4C-AD700418FD3C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Beacon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Beacon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace Beacon with scheme Beacon and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>597929937.95137703</real>
+			<key>timeStoppedRecording</key>
+			<real>597929941.63902295</real>
+			<key>title</key>
+			<string>Building workspace Beacon with scheme Beacon and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>F704AA67-8CFE-4F13-AF4C-AD700418FD3C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
